@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Marianne';
+    src: url('Marianne-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ @font-face {
+    font-family: 'Marianne';
+    src: url('Marianne-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+ }
+ 
+ /* Variables */
+ :root {
+    --marianne-light: 300;
+    --marianne-extrabold: 800;
+ }
+ 
+ /* Utility classes */
+ .marianne-light {
+    font-family: 'Marianne';
+    font-weight: var(--marianne-light);
+ }
+ 
+ .marianne-extrabold {
+    font-family: 'Marianne';
+    font-weight: var(--marianne-extrabold);
+ }
+ 
+ /* Optimisation de performance */
+ @media screen and (max-width: 768px) {
+    /* Réduction de la taille sur mobile */
+    .marianne-light,
+    .marianne-extrabold {
+        font-size: 0.9em;
+    }
+ }
