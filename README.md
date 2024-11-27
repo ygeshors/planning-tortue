@@ -1,4 +1,4 @@
-# Planning Prospections Tortues Marines
+# Planning Prospections Tortues Marines - EN COURS DE DEVELOPPEMENT.
 
 Extension WordPress de gestion des plannings de prospection pour les tortues marines sur le littoral.
 
